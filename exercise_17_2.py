@@ -18,8 +18,10 @@ class Point:
         self.y = y
 
 
+# initialize the instantiated object with the values of 3 and 4 for x and y
 p = Point(3, 4)
 
+# pprint the point values
 print ('\nThe point defined is ' + str(p.x) + ', ' + str(p.y))
 
 
